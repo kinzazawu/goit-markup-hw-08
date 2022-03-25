@@ -1,0 +1,37 @@
+.container--footer {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer {
+  background-color: var(--secondary-black-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  &__address {
+    flex-grow: 1;
+  }
+}
+
+.address {
+  font-size: 14px;
+  line-height: 1.71;
+
+  &__page {
+    margin-top: 20px;
+  }
+
+  &__item {
+    font-style: normal;
+    list-style: none;
+
+    &:not(:last-child) {
+      margin-bottom: 9px;
+    }
+  }
+}
+
+.location {
+  color: var(--primary-white-color);
+  text-decoration: none;
+}

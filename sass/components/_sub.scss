@@ -1,0 +1,36 @@
+.sub {
+  margin-left: 93px;
+
+  &__form {
+    margin-top: 20px;
+  }
+
+  &__wrap {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__input {
+    padding-left: 16px;
+    width: 358px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 1.25;
+    background-color: transparent;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    color: rgba(255, 255, 255, 0.6);
+  }
+
+  &__btn {
+    display: flex;
+    align-items: center;
+    margin-left: 12px;
+    padding-left: 29px;
+  }
+
+  &__icon {
+    margin-left: 10px;
+  }
+}
