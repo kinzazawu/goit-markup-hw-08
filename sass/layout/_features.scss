@@ -1,11 +1,16 @@
 .features {
-  // display: flex;
-  // margin-left: -30px;
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px;
+  }
 }
 
 .features__item {
-  // margin-left: 30px;
-  // width: 270px;
+  @media screen and (min-width: 768px) {
+    margin: 15px;
+    flex-basis: calc((100% - 60px) / 2);
+  }
 
   @media screen and (max-width: 767px) {
     &:not(:last-child) {
@@ -31,6 +36,10 @@
   font-size: 14px;
   text-transform: uppercase;
   color: var(--title-text-color);
+
+  @media screen and (max-width: 767px) {
+    text-align: center;
+  }
 }
 
 .features__text {
