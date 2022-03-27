@@ -232,10 +232,6 @@ img {
   text-decoration: none;
 }
 
-.contacts__link-address {
-  padding: 0;
-}
-
 .contacts__link:hover,
 .contacts__link:focus {
   color: var(--accent-color);
@@ -286,6 +282,10 @@ img {
   .contacts__item + .contacts__item {
     margin-left: 50px;
   }
+}
+
+.contacts__link-address {
+  padding: 0;
 }
 
 .mob-social {
@@ -1193,8 +1193,12 @@ img {
   .footer__address {
     text-align: center;
   }
+  .address {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
-
 .address {
   font-size: 14px;
   line-height: 1.71;
