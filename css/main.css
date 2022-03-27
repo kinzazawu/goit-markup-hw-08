@@ -505,6 +505,13 @@ img {
 
 .section--work {
   padding-top: 0;
+  display: none;
+}
+
+@media screen and (min-width: 1200px) {
+  .section--work {
+    display: block;
+  }
 }
 
 .socials {
