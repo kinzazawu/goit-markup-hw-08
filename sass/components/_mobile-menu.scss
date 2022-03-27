@@ -32,4 +32,9 @@
   @media screen and (min-width: 768px) {
     display: none;
   }
+
+  &:hover,
+  &:focus {
+    fill: var(--accent-color);
+  }
 }

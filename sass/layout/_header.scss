@@ -1,12 +1,12 @@
 .header {
   border-bottom: 1px solid var(--primary-border-color);
+}
 
-  &__container {
-    display: flex;
-    align-items: center;
+.header__container {
+  display: flex;
+  align-items: center;
 
-    @media screen and (max-width: 767px) {
-      justify-content: space-between;
-    }
+  @media screen and (max-width: 767px) {
+    justify-content: space-between;
   }
 }
